@@ -1,0 +1,46 @@
+* {
+    font-family: 'Alkatra', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+.outer_main {
+    margin: 20px 20px;
+    max-width: 98vw;
+    max-height: 95vh;
+    background-color: #f0f0f0;
+}
+
+.outer-1 {
+    position: absolute;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(gg.jpg);
+    background-size: cover;
+    height: 95vh;
+    width: 96vw;
+
+}
+
+.leftside {
+    position: absolute;
+    height: 100%;
+    width: 68%;
+    -webkit-clip-path: polygon(0 0, 49% 0, 100% 100%, 0 100%);
+    transition: duration 1s;
+    ;
+}
+
+.leftside:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+
+}
+
+.left {
+    box-sizing: border-box;
+    padding-top: 40%;
+    padding-left: 5%;
+    position: absolute;
+    font-weight: 700;
+    font-size: 160px;
+    color: #d3dbd5;
+    /* background-color: aqua; */
+}
